@@ -17,6 +17,11 @@ _
             python_package => 'docopt',
             tags => ['cli'],
         },
+        {
+            module => 'Getopt::ArgParse',
+            python_package => 'argparse',
+            tags => ['cli'],
+        },
     ],
 };
 
