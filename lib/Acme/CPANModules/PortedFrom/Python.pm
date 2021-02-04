@@ -24,7 +24,8 @@ _
         },
         {
             module => 'PSGI',
-            python_package => 'wsgi',
+            python_package => undef,
+            python_url => 'https://www.python.org/dev/peps/pep-3333/',
             tags => ['web'],
             description => <<'_',
 
