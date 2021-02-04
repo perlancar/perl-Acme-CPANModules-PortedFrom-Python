@@ -22,6 +22,19 @@ _
             python_package => 'argparse',
             tags => ['cli'],
         },
+        {
+            module => 'PSGI',
+            python_package => 'wsgi',
+            tags => ['web'],
+            description => <<'_',
+
+From Plack's documentation: "Plack is like Ruby's Rack or Python's Paste for
+WSGI." Plack and PSGI was created by MIYAGAWA in 2009 and is inspired by both
+Python's WSGI specification (hence the dual specification-implementation split)
+and Plack (hence the name).
+
+_
+        },
     ],
 };
 
@@ -29,3 +42,9 @@ _
 # ABSTRACT:
 
 =head1 DESCRIPTION
+
+
+=head2 SEE ALSO
+
+L<Acme::CPANModules::PortedFrom::Python> and other
+C<Acme::CPANModules::PortedFrom::*> modules.
