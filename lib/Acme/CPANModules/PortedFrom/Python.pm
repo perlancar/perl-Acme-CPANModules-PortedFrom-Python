@@ -1,6 +1,8 @@
 package Acme::CPANModules::PortedFrom::Python;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
@@ -47,5 +49,5 @@ _
 
 =head2 SEE ALSO
 
-L<Acme::CPANModules::PortedFrom::Python> and other
+L<Acme::CPANModules::PortedFrom::Ruby> and other
 C<Acme::CPANModules::PortedFrom::*> modules.
