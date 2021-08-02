@@ -2,3 +2,4 @@ Acme-CPANModules-PortedFrom-Python-*
 .build
 *~
 nytprof*
+.DS_Store
